@@ -46,11 +46,14 @@ Ce projet consiste en une application de **segmentation d'images en temps réel*
 
 Voici la liste des commandes que vous pourrez utiliser dans le programme :
 
-`q`: Quitter le programme <br>
-`f`: Freeze le programme <br>
-`b`: Analyser le fond <br>
-`a`: Analyser un objet <br>
-`r`: Activer la reconnaissance <br>
+`f`: Geler/Degeler l'image <br>
+`h`: Calculer la distribution de couleur pour la zone centrale <br>
+`v`: Calculer la distance entre la distribution gauche et droite <br>
+`b`: Scanner le fond (background) <br>
+`n`: Ajouter un nouvel objet <br>
+`a`: Ajouter l'histogramme de la zone centrale au dernier objet cree <br>
+`r`: Activer/Desactiver le mode reconnaissance <br>
+`q`/`ESC`: Quitter 
 
 ## ⌨️ Liste des fonctions
 
